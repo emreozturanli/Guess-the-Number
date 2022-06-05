@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    width: 10rem;
+}
+
+input{
+    width: 15rem;
+    font-size: 7rem;
+    outline: none;
+}
+
+.info{
+    background-color: orangered;
+}
+
+@media (max-width:550px){
+    input{
+        width: 10rem;
+        font-size: 4rem;
+    }
+}
